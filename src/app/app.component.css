@@ -1,0 +1,48 @@
+
+nav {
+    width: calc(100vw - 8em);
+    position: absolute;
+    top: 3em;
+    font-size: larger;
+}
+nav p {
+    display: inline-block;
+    padding: 10px;
+}
+.nav-links {
+    float: right;
+}
+.nav-links:hover{
+    cursor: pointer;
+}
+.link {
+    color: #23aaf2;
+    border-width: 2px;
+    border-style: solid;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.link:hover{
+    background-color: #23aaf2;
+    color: rgba(255, 255, 255, 0.75);;
+    border-color: #23aaf2;
+}
+#lastname {
+    padding-left : 0;
+    font-weight: bold;
+    font-size: large;
+}
+
+@media only screen and (max-width: 670px) {
+    nav{
+        display: contents;
+    }
+    .nav-links{
+        width : 100%;
+    }
+    nav p{
+        width : 100%;
+    }
+
+}
