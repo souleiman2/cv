@@ -1,5 +1,5 @@
 # Cv
-
+The purpose of this website is to showcase my portfolio.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
 ## Development server
