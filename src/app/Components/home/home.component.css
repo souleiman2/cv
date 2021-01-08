@@ -1,4 +1,4 @@
-img {
+/* img {
     position: relative;
     transform: translate(3em, -5em);
     -webkit-clip-path: polygon(48% 0, 100% 20%, 74% 91%, 0 76%);
@@ -17,8 +17,6 @@ img {
     transform: translateY(-50%);
 }
 
-
-/* Animation */
 .anim-typewriter {
     animation: typewriter 3s normal;
     animation-iteration-count: infinite;
@@ -118,4 +116,8 @@ img {
         margin-right: 0;
     }
 }
+ */
+
+
+.w3-row-padding img {margin-bottom: 12px}
 

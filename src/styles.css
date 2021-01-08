@@ -1,4 +1,9 @@
-html {
+@import 'assets/w3.css';
+@import 'assets/Montserrat.css';
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+/* html {
     margin: 0;
 }
 body {
@@ -61,4 +66,4 @@ body {
     .otherComponent::-webkit-scrollbar-thumb {
         display: none;
     }
-}
+} */
