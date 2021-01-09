@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ItemExpComponent implements OnInit {
   @Input() title : String;
   @Input() subTitle : String;
-  @Input() elemList : Array<String>;
+  @Input() elemList : String[];
   @Input() techs : String;
   @Input() time : String;
   

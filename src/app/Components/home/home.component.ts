@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  education : Array<ItemExp> = [
+  education : ItemExp[] = [
     {
       title : "Polytechnique Montreal",
       subTitle : "Bachelor in Software Engineering",
@@ -82,48 +82,6 @@ export class HomeComponent implements OnInit {
     }
   ];
 
-  projects : Array<ItemExp> = [
-    {
-      title : "Co-founder of Unilinks",
-      subTitle : undefined,
-      elemList : [
-        "Cross-platform Progressive Web App (IOS, Android, Web) which aims to highlight the interuniversity events of different associations.",
-        "Summary: 60 downloads of the application"
-      ],
-      techs : "Ionic, Angular, Firebase",
-      time: undefined
-    },
-    {
-      title : "Embedded Systems – First Year Project (INF1900)",
-      subTitle : undefined,
-      elemList : [
-        "Programmed with my team a line following robot that can also detect line patterns with sensors, detect boxes and move with precision",
-      ],
-      techs : "C/C++, Makefile",
-      time: undefined
-    },
-    {
-      title : "ChessAI",
-      subTitle : undefined,
-      elemList : [
-        "Reprogrammed the chess engine that made in high school but with a better architecture and in another language",
-        "Better AIs made from scratch: Supervised ML algorithm and Alpha-beta pruning"
-      ],
-      techs : "Python, Pygame",
-      time: undefined
-    },
-    {
-      title : "Housing website",
-      subTitle : undefined,
-      elemList : [
-        "Made a website that showcases buildings to sell or loan",
-        "Dynamic so that modifications can be done easily without having to program"
-      ],
-      techs : "Angular, Firebase, Boostrap",
-      time: undefined
-    }
-  ]
-
   constructor() { }
 
   ngOnInit() {
@@ -134,7 +92,7 @@ export class HomeComponent implements OnInit {
 interface ItemExp{
   title : String;
   subTitle : String;
-  elemList : Array<String>;
+  elemList : String[];
   techs : String;
   time : String;
 }

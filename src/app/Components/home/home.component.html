@@ -22,18 +22,45 @@
     <li>Familiar with the Agile and Devops practices</li>
     <li>Honest, hard-working, passionate and ease in interpersonal relations</li>
   </ul>
-
+  <br style="margin-bottom: 40px;">
   <!-- Education -->
   <h2 class="w3-text-light-grey">Education</h2>
   <hr style="width: 200px; margin-top: 0;" class="w3-opacity" />
-  <div style="margin-left: 15px;">
-    <app-item-exp [title]="'dmsaklda'" [subTitle]="'dmskla'" [elemList]="['dasmas', 'dasdlka']" [techs]="'Python'" [time]="'Été'"></app-item-exp>
-    <app-item-exp [title]="'dmsaklda'" [subTitle]="'dmskla'" [elemList]="['dasmas', 'dasdlka']" [techs]="'Python'"></app-item-exp>  
+  <div style="margin-left: 15px;" *ngFor="let item of education">
+    <app-item-exp  title={{item.title}} subTitle={{item.subTitle}} [elemList]="item.elemList" techs={{item.techs}} time={{item.time}}></app-item-exp>
   </div>
+  <br style="margin-bottom: 30px;">
 
+  <!-- Experience -->
+  <h2 class="w3-text-light-grey">Experience</h2>
+  <hr style="width: 200px; margin-top: 0;" class="w3-opacity" />
+  <div style="margin-left: 15px;">
+    <app-item-exp *ngFor="let item of this.experience" title={{item.title}} subTitle={{item.subTitle}} [elemList]="item.elemList" techs={{item.techs}} time={{item.time}}></app-item-exp>
+  </div>
+  <br style="margin-bottom: 30px;">
 
-
-
+  <h2 class="w3-text-light-grey">Competitive events</h2>
+  <hr style="width: 200px; margin-top: 0;" class="w3-opacity" />
+  <div style="margin-left: 15px;" class="events">
+    <p><strong>2nd place </strong> in a CEGEP math competition (COMC)</p>
+    <p><strong>2nd place </strong> in a pitch competition at Polytechnique for presenting Unilinks</p>
+    <p><strong>5th/115 </strong> in a HackerRank competition in my university</p>
+    <p><strong>Chess: </strong> Repeatedly winning regional and provincial tournaments in my division and currently have a score of 1714 on lichess.org</p>
+    <br>
+    <p><strong>Hackathons:</strong></p>
+    <ul>
+      <li><strong>Google Tech Challenge</strong></li>
+      <li><strong>McGill Physics Hackathon: </strong>Angular velocity in arbitrary dimensions (on github) 4th place</li>
+      <li><strong>AI Hackathon at UdeM </strong>6th place</li>
+      <li><strong>HackQC </strong>(3 days): environmental website that took data from a database and used a back-end made with Django</li>
+      <li><strong>ConcordAI Artificial Intelligence Hackathon</strong></li>
+      <li><strong>LHGames</strong></li>
+      <li><strong>Hackathon BDC</strong></li>
+      <li>2 Capture The Flag</li>
+    </ul>
+  </div>
+  <br style="margin-bottom: 30px;">
+  
   
   <!-- Grid for pricing tables -->
   <h3 class="w3-padding-16 w3-text-light-grey">Technical Skills</h3>
@@ -66,7 +93,7 @@
   </div>
 
 <!-- Contact Section -->
-<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+<div class="w3-padding-64 w3-content w3-text-grey" id="contact" style="padding-bottom: 0!important;">
   <h2 class="w3-text-light-grey">Contact Me</h2>
   <hr style="width: 200px" class="w3-opacity" />
 
@@ -75,30 +102,30 @@
       <i
         class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
       ></i>
-      Chicago, US
+      Montreal, Canada
     </p>
     <p>
       <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
-      Phone: +00 151515
+      Phone: (438)337-3789
     </p>
     <p>
       <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
       </i>
-      Email: mail@mail.com
+      Email: souleiman.ayoub@polymtl.ca
     </p>
   </div>
   <br />
   
 </div>
 
-<!-- Footer -->
-<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-</footer>
-
-<!-- END PAGE CONTENT -->
+<div style="display: flex;">
+  <div class="social" style="background-color: #3b5998;">
+    <i class="fa fa-facebook-square fa-fw w3-text-white w3-xxlarge" style="font-size: 50px !important;"></i>
+  </div>
+  <div class="social" style="background-color: #0e76a8;">
+    <i class="fa fa-linkedin-square fa-fw w3-text-white w3-xxlarge" style="font-size: 50px !important;"></i>
+  </div>
+  <div class="social" style="background-color: #101010;">
+    <i class="fa fa-github fa-fw w3-text-white w3-xxlarge" style="font-size: 50px !important;"></i>
+  </div>
+</div>

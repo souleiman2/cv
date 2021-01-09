@@ -4,3 +4,25 @@ li{
 
 .w3-row-padding img {margin-bottom: 12px}
 
+
+div.social {
+    width: 30%;
+    margin: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: fit-content;
+}
+div.social:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+i.social{
+    margin: auto;
+}
+
+.events p, .events ul{
+    margin: 1px;
+}
+
