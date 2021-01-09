@@ -1,0 +1,14 @@
+<div>
+  <h3 style="margin-bottom: 0; color : lightgrey">
+    <span style="font-weight: bold">{{ title }}</span>
+    <span *ngIf="techs"> | </span
+    ><span *ngIf="techs" style="font-style: italic; font-size: 18px;"> {{ techs }}</span>
+  </h3>
+</div>
+<h6 style="font-style: italic; margin:0" *ngIf="subTitle">{{ subTitle }} <span style="font-style: normal;" *ngIf="time"> — {{time}}</span></h6>
+<ul *ngIf="elemList.length != 0">
+  <li *ngFor="let item of elemList">
+    {{ item }}
+  </li>
+</ul>
+
