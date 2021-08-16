@@ -1,4 +1,58 @@
-img{
-    height : 100vh !important;
-    width : 100vw !important;
+::ng-deep .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  height: fit-content;
+  text-shadow: 2px 2px black;
+}
+
+::ng-deep .carousel-item {
+  transition: opacity 1s ease !important;
+  position: absolute !important;
+  display: block !important;
+  opacity: 0;
+}
+
+::ng-deep.carousel-item.active {
+  position: relative !important;
+  opacity: 1;
+}
+
+::ng-deep .carousel-caption h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+::ng-deep .carousel-indicators {
+  bottom: 60px;
+}
+
+::ng-deep .carousel-indicators li {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+::ng-deep .carousel-indicators .active {
+  background-color: #ecf400;
+}
+
+::ng-deep .carousel-control-prev-icon,
+::ng-deep .carousel-control-next-icon {
+  width: 60px;
+  height: 80px;
+}
+
+::ng-deep .carousel-control-prev-icon {
+  background-image: url("../../../assets/previous.png") !important;
+}
+
+::ng-deep .carousel-control-next-icon {
+  background-image: url("../../../assets/next.png") !important;
+}
+
+img {
+  height: 100vh !important;
+  width: 100vw !important;
+  filter: brightness(80%);
 }
