@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BEST_PROJECTS } from '../../Services/projects-data'
+import { WALLPAPERS } from '../../Services/projects-data'
 
 
 @Component({
@@ -8,6 +8,6 @@ import { BEST_PROJECTS } from '../../Services/projects-data'
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent {
-  images : Array<string> = BEST_PROJECTS.map(x => x.image_url)
+  images : Array<String> = WALLPAPERS
 
 }

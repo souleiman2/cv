@@ -1,0 +1,19 @@
+nav{
+    position: fixed;
+    right : 30px;
+    top : 50px;
+    color : white;
+    text-align: right;
+}
+nav a{
+    color : #c56c62;
+}
+
+li{
+    font-size: 25px;
+    list-style-type: none;
+    color : grey;
+    font-weight: 1000;
+
+}
+

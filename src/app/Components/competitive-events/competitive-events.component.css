@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  padding: 100px 0 50px 0;
+  text-decoration: underline;
+}
+
+h3{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ul{
+  padding-left : 30px;
+  padding-right : 30px;
+}
+li{
+  list-style-type: none;
+  text-align: center;
+}
+
+#languages-container{
+  max-width: 800px;
+  margin: 50px auto;
+  
+}
+.progress{
+  width : 50%;
+}
+td, th {
+  text-align: center;   
+}
+tbody th{
+  font-weight: normal;
+}
