@@ -58,6 +58,9 @@
   background-image: url("../../../assets/next.png") !important;
 }
 
+h1{
+  font-family: "Lucida Console";
+}
 .picsum-img-wrapper img {
   height: 100vh !important;
   width: 100vw !important;
@@ -70,4 +73,21 @@
   margin : 30px 0 0 0;
 
   
+}
+
+.blinker {
+  -webkit-animation: blink 1.2s step-end infinite;
+  animation: blink 1.2s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
 }

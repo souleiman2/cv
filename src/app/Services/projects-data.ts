@@ -19,7 +19,7 @@ export const PROJECTS: Array<Project> = [
   },
   {
     name: "Sudoku Generator",
-    image_url: "assets/sudoku.png",
+    image_url: "assets/sudoku.jpg",
     redirected_url: "https://github.com/souleiman2/Sudoku-Generator",
   },
   {
@@ -34,7 +34,7 @@ export const PROJECTS: Array<Project> = [
   },
   {
     name: "L-System",
-    image_url: "assets/l-system.jpg",
+    image_url: "assets/l-system2.jpg",
     redirected_url: "https://souleiman2.github.io/L-system/",
   },
   {
@@ -44,12 +44,12 @@ export const PROJECTS: Array<Project> = [
   },
   {
     name: "Clone Attack",
-    image_url: "assets/tentacles.png",
+    image_url: "assets/tentacles2.PNG",
     redirected_url: "https://github.com/LeKo0/TP2_ADC",
   },
   {
     name: "Mender Sponge",
-    image_url: "assets/mendersponge.png",
+    image_url: "assets/mendersponge.jpg",
     redirected_url: "https://souleiman2.github.io/MenderSponge/main.html",
   },
   {

@@ -37,3 +37,10 @@ i.social{
     margin-top: auto;
     margin-bottom: auto;
 }
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.w3-section p{
+    color : #eee;
+}

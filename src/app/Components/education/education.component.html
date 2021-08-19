@@ -1,40 +1,44 @@
 <h1>My Timeline</h1>
 
-<div class="timeline">
-  <div class="container left">
-    <div class="content" data-aos="fade-right">
-      <h2>2021</h2>
-      <app-education-item
-        *ngFor="let elem of this.education_infos['2021']"
-        [education]="elem"
-      ></app-education-item>
+<div class="timeline-container">
+  <img src="assets/montgolfiere.png" id="balloon" alt="Hot air balloon" />
+  <div class="timeline">
+    <div class="container left">
+      <div class="content" data-aos="fade-right">
+        <h2>2021</h2>
+        <app-education-item
+          *ngFor="let elem of this.education_infos['2021']"
+          [education]="elem"
+        ></app-education-item>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content" data-aos="fade-left">
+        <h2>2020</h2>
+        <app-education-item
+          *ngFor="let elem of this.education_infos['2020']"
+          [education]="elem"
+        ></app-education-item>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content" data-aos="fade-right">
+        <h2>2018</h2>
+        <app-education-item
+          *ngFor="let elem of this.education_infos['2018']"
+          [education]="elem"
+        ></app-education-item>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content" data-aos="fade-left">
+        <h2>2016</h2>
+        <app-education-item
+          *ngFor="let elem of this.education_infos['2016']"
+          [education]="elem"
+        ></app-education-item>
+      </div>
     </div>
   </div>
-  <div class="container right">
-    <div class="content" data-aos="fade-left">
-      <h2>2020</h2>
-      <app-education-item
-        *ngFor="let elem of this.education_infos['2020']"
-        [education]="elem"
-      ></app-education-item>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content" data-aos="fade-right">
-      <h2>2018</h2>
-      <app-education-item
-        *ngFor="let elem of this.education_infos['2018']"
-        [education]="elem"
-      ></app-education-item>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content" data-aos="fade-left">
-      <h2>2016</h2>
-      <app-education-item
-        *ngFor="let elem of this.education_infos['2016']"
-        [education]="elem"
-      ></app-education-item>
-    </div>
-  </div>
+  <img src="assets/ground.png" alt="Ground" />
 </div>
