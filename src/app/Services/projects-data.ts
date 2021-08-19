@@ -8,7 +8,7 @@ export const PROJECTS: Array<Project> = [
     redirected_url: "https://souleiman2.github.io/FastFix/",
   },
   {
-    name: "McGillPhysHack",
+    name: "McGill PhysHack",
     image_url: "assets/multidimensionnal.jpg",
     redirected_url: "https://souleiman2.github.io/McGillPhysHack2018/",
   },
