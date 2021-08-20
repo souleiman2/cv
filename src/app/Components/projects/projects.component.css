@@ -1,20 +1,30 @@
-.projects-container{
-    margin : 10px;
-    overflow-x: hidden;
+.projects-container {
+  margin: 10px;
+  overflow-x: hidden;
 }
-.col{
-    padding: 10px;
+.col {
+  padding: 10px;
 }
-.row{
-    height : 400px;
+.row {
+  height: 400px;
 }
 
-.bigger{
-    height:  500px;
+.bigger {
+  height: 500px;
 }
-h1{
-    text-align: center;
-    padding : 60px 0 0 0;
-    margin-bottom: 0;
-    text-decoration: underline;
+h1 {
+  text-align: center;
+  padding: 60px 0 0 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .col {
+    flex-basis: auto;
+    height: 250px;
   }
+  .row, .bigger{
+    height : auto;
+  }
+}
