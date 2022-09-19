@@ -27,6 +27,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Building and deploy to github pages
 
+Run these following commands to deploy:
+
+```
+ng build --prod --base-href https://souleiman2.github.io/cv/
+npx ngh --dir=dist/cv
+```
 
 ## Further help
 
