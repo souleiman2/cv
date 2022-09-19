@@ -35,6 +35,10 @@ tbody th{
   font-weight: normal;
 }
 
+.mar-bot{
+  margin-bottom: 70px;
+}
+
 @media only screen and (max-width: 600px) {
   h1 {
     font-size : 30px;

@@ -7,8 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompetitiveEventsComponent implements OnInit {
 
-  constructor() { }
-
   ngOnInit() {
   }
 
