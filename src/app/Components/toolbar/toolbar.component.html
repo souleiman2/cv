@@ -1,0 +1,13 @@
+<div id="navbar" class="toolbar" role="banner">
+  <span id="logo">SA</span>
+  <!-- <img alt="Logo" src="assets/logo.png" /> -->
+  <div class="spacer"></div>
+  <a *ngFor="let item of sections; let i = index" href="{{ item.url }}">
+    <span id="num">0{{ i + 1 }}. </span>
+    <span>{{ item.label }}</span>
+  </a>
+
+  <!-- Resume button -->
+  <button id="btn-resume">Resume</button>
+</div>
+

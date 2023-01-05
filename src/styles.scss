@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'assets/scss/colors.scss';
+@import 'assets/scss/constants.scss';
+
+
+body{
+    background-color: #181a1b;
+    margin : 0;
+}
