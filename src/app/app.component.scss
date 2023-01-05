@@ -66,6 +66,13 @@ p {
   h3{
     color : var(--light-gray);
   }
+  .row{
+    width : 100%;
+  }  
+}
+
+.col-block {
+  width : 33.33%;
 }
 
 
