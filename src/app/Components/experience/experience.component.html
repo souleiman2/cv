@@ -1,0 +1,21 @@
+<div class="timeline-container">
+  <img src="assets/montgolfiere.png" id="balloon" alt="Hot air balloon" />
+  <div class="timeline">
+    <div
+      *ngFor="let item of this.education_infos; let i = index"
+      [className]="'container ' + (i % 2 == 0 ? 'left' : 'right')"
+    >
+      <div
+        class="content"
+        [attr.data-aos]="'fade-' + (i % 2 == 0 ? 'right' : 'left')"
+      >
+        <h2>{{ item.year }}</h2>
+        <app-experience-item
+          *ngFor="let elem of item.content"
+          [education]="elem"
+        ></app-experience-item>
+      </div>
+    </div>
+  </div>
+  <img src="assets/ground.png" alt="Ground" />
+</div>

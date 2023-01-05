@@ -9,8 +9,9 @@ import { Component, Inject } from '@angular/core';
 export class ToolbarComponent {
   sections : Array<SectionItem> = [
     {label : "About", url : "#about"},
+    {label : "Skills", url : "#skills"},
     {label : "Experience", url : "#xp"},
-    {label : "Work", url : "#work"},
+    {label : "Projects", url : "#projects"},
     {label : "Contact", url : "#contact"}
   ]
 
@@ -27,8 +28,6 @@ export class ToolbarComponent {
       prevScrollpos = currentScrollPos;
     };
   }
-
-
 }
 
 interface SectionItem{
