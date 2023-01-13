@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faGraduationCap, faCertificate, faAward, faLanguage } from '@fortawesome/free-solid-svg-icons';
+import { faGraduationCap, faCertificate, faAward, faLanguage, faFire, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +11,7 @@ export class AppComponent {
   faCertificate = faCertificate
   faAward = faAward
   faLanguage = faLanguage
+  faFire = faFire
+  faTrophy = faTrophy
   
 }
