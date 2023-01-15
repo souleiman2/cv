@@ -82,22 +82,48 @@ p {
   fa-icon {
     float: left;
     color: var(--light-purple);
-    margin : 8px 6px 8px 0;
+    margin : 7px 6px 7px 0;
     font-size : 1.5em;
   }
   p{
     font-size : 16px;
     margin-bottom : 3px;
   }
+  .col-block {
+    width: 30%;
+    margin: 30px 0;
+    display: inline-table;
+    padding-left : 15px;
+    padding-right : 15px;
+  }
 }
 
-.col-block {
-  width: 30%;
-  margin: 30px 0;
-  display: inline-table;
-  padding-left : 15px;
-  padding-right : 15px;
+#skills{
+  // .col-block {
+  //   width: 47%;
+  //   margin: 10px 10px;
+  //   display: inline-table;
+  //   background-color: var(--light-purple);
+  //   padding : 8px 8px;
+  // }
+  .container{
+    width : 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-row: auto auto;
+    grid-template-columns: 50% 50%;
+
+    .container-item{
+      background-color: var(--light-purple);
+      border-radius: 2px;
+    }
+  }
+  .sub-title{
+    margin-bottom : 20px;
+  }
 }
+
+
 
 .inner-container {
   max-width: 1100px;

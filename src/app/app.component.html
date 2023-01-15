@@ -80,6 +80,28 @@
 <div class="center" id="skills">
   <div class="inner-container center">
     <h2 class="sub-title"><span class="numb">02.</span> Skill</h2>
+
+    <!-- programming languages
+      Python - Java - Typescript - Javascript - HTML - CSS - SCSS - C/C++ - Solidity - Kotlin - SQL - Git
+
+      Front end
+      Angular - React - React Native - Redux - Bootstrap - Web/Android/IOS - Ionic
+
+      Backend
+      Flask - Django - Kubernetes - AWS - Azure - NodeJS - Firebase - Docker - Elasticsearch - Logstash - Kibana - PostgreSQL - MongoDB - Dynamodb
+
+
+      Machine learning
+      Tensorflow - Sklearn - Statsmodels - Matplotlib - Seaborn - Numpy - Scipy - Pandas - NLTK
+      -->
+      <div class="container">
+        <div class="container-item" *ngFor="let item of skills;">
+          <app-skill-item [icon]="item.icon" title={{item.title}} content={{item.content}}></app-skill-item>
+        </div>
+      </div>
+      
+
+
   </div>
 </div>
 
@@ -115,6 +137,8 @@
       target="_blank"
       >Say Hello</a
     >
+
+    <!-- social networks -->
   </div>
 </div>
 
@@ -148,26 +172,5 @@
     <pre *ngSwitchCase="'build'">ng build</pre>
   </div>
 </div> -->
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
-<p>asdasdk</p>
 
 <router-outlet></router-outlet>

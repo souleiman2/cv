@@ -7,13 +7,15 @@ import { ToolbarComponent } from './Components/toolbar/toolbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ExperienceComponent } from './Components/experience/experience.component';
 import { ExperienceItemComponent } from './Components/experience-item/experience-item.component';
+import { SkillItemComponent } from './Components/skill-item/skill-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolbarComponent,
     ExperienceComponent,
-    ExperienceItemComponent
+    ExperienceItemComponent,
+    SkillItemComponent
   ],
   imports: [
     BrowserModule,
