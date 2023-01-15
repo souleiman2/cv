@@ -19,10 +19,13 @@
 <div id="about">
   <div class="inner-container center">
     <h2 class="sub-title"><span class="numb">01.</span> About me</h2>
-    <h1>I’ve studied at Polytechnique in software engineering. I describe myself as a person with
-      integrity, hardworking and passionate. Combining my two greatest passions, mathematics
-      and programming, I have been challenging myself by developing software for 8 years now.
-      Finally, I think that good communication is what makes a great team.</h1>
+    <h1>
+      I’ve studied at Polytechnique in software engineering. I describe myself
+      as a person with integrity, hardworking and passionate. Combining my two
+      greatest passions, mathematics and programming, I have been challenging
+      myself by developing software for 8 years now. Finally, I think that good
+      communication is what makes a great team.
+    </h1>
 
     <div class="row">
       <div class="col-block">
@@ -41,15 +44,24 @@
       <div class="col-block">
         <fa-icon [icon]="faAward"></fa-icon>
         <h2>Scolarships</h2>
-        <p>- Mention of Excellence for outstanding performance at Polytechnique Montreal (GPA : 3,63/4)</p>
-        <p>- Recipient of the Admission Excellence Scholarship at Polytechnique Montreal</p>
+        <p>
+          - Mention of Excellence for outstanding performance at Polytechnique
+          Montreal (GPA : 3,63/4)
+        </p>
+        <p>
+          - Recipient of the Admission Excellence Scholarship at Polytechnique
+          Montreal
+        </p>
       </div>
     </div>
     <div class="row">
       <div class="col-block">
         <fa-icon [icon]="faCertificate"></fa-icon>
         <h2>Certifications</h2>
-        <p>- Recipient of the AWS Certified Machine Learning Specialty certification</p>
+        <p>
+          - Recipient of the AWS Certified Machine Learning Specialty
+          certification
+        </p>
         <p>- Recipient of the AWS Cloud Practitioner certification</p>
       </div>
       <div class="col-block">
@@ -68,9 +80,9 @@
         <fa-icon [icon]="faTrophy"></fa-icon>
         <h2>Rewards</h2>
         <p>- 2nd place in a pitch competition at Polytechnique Montreal</p>
-        <p>- 2nd place in a math competition at College Bois-de-Boulogne (COMC)</p>
-        
-        
+        <p>
+          - 2nd place in a math competition at College Bois-de-Boulogne (COMC)
+        </p>
       </div>
     </div>
   </div>
@@ -94,14 +106,15 @@
       Machine learning
       Tensorflow - Sklearn - Statsmodels - Matplotlib - Seaborn - Numpy - Scipy - Pandas - NLTK
       -->
-      <div class="container">
-        <div class="container-item" *ngFor="let item of skills;">
-          <app-skill-item [icon]="item.icon" title={{item.title}} content={{item.content}}></app-skill-item>
-        </div>
+    <div class="container">
+      <div class="container-item" *ngFor="let item of skills">
+        <app-skill-item
+          [icon]="item.icon"
+          title="{{ item.title }}"
+          content="{{ item.content }}"
+        ></app-skill-item>
       </div>
-      
-
-
+    </div>
   </div>
 </div>
 
@@ -139,6 +152,20 @@
     >
 
     <!-- social networks -->
+    <div class="social-net">
+      <a href="https://www.linkedin.com/in/souleiman-ayoub-b82748165/" target="_blank">
+        <i
+          class="fa fa-linkedin-square fa-fw w3-text-white w3-xxlarge"
+          style="font-size: 50px !important"
+        ></i>
+      </a>
+      <a href="https://github.com/souleiman2" target="_blank">
+        <i
+          class="fa fa-github fa-fw w3-text-white w3-xxlarge"
+          style="font-size: 50px !important"
+        ></i>
+      </a>
+    </div>
   </div>
 </div>
 
