@@ -8,6 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ExperienceComponent } from './Components/experience/experience.component';
 import { ExperienceItemComponent } from './Components/experience-item/experience-item.component';
 import { SkillItemComponent } from './Components/skill-item/skill-item.component';
+import { ProjectComponent } from './Components/project/project.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SkillItemComponent } from './Components/skill-item/skill-item.component
     ToolbarComponent,
     ExperienceComponent,
     ExperienceItemComponent,
-    SkillItemComponent
+    SkillItemComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

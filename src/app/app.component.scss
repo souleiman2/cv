@@ -66,12 +66,12 @@ p {
   color: var(--lighter-gray);
   h1 {
     font-size: 30px;
-    margin-bottom : 60px;
+    margin-bottom: 60px;
   }
   h3 {
     color: var(--light-gray);
   }
-  p{
+  p {
     color: var(--light-gray);
   }
   .row {
@@ -82,23 +82,23 @@ p {
   fa-icon {
     float: left;
     color: var(--light-purple);
-    margin : 7px 6px 7px 0;
-    font-size : 1.5em;
+    margin: 7px 6px 7px 0;
+    font-size: 1.5em;
   }
-  p{
-    font-size : 16px;
-    margin-bottom : 3px;
+  p {
+    font-size: 16px;
+    margin-bottom: 3px;
   }
   .col-block {
     width: 30%;
     margin: 30px 0;
     display: inline-table;
-    padding-left : 15px;
-    padding-right : 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
-#skills{
+#skills {
   // .col-block {
   //   width: 47%;
   //   margin: 10px 10px;
@@ -106,24 +106,22 @@ p {
   //   background-color: var(--light-purple);
   //   padding : 8px 8px;
   // }
-  .container{
-    width : 100%;
+  .container {
+    width: 100%;
     display: grid;
     grid-gap: 20px;
     grid-row: auto auto;
     grid-template-columns: 50% 50%;
 
-    .container-item{
+    .container-item {
       background-color: var(--light-purple);
       border-radius: 2px;
     }
   }
-  .sub-title{
-    margin-bottom : 20px;
+  .sub-title {
+    margin-bottom: 20px;
   }
 }
-
-
 
 .inner-container {
   max-width: 1100px;
@@ -266,35 +264,34 @@ a:hover {
   display: flex;
   flex-direction: column;
   max-width: 400px;
-  
 
   h1,
   h2,
   a {
-    margin : auto;
+    margin: auto;
     text-align: center;
   }
 
-  h1{
-    font-size : 45px;
-    color : var(--lighter-gray);
-    margin-top : 10px;
+  h1 {
+    font-size: 45px;
+    color: var(--lighter-gray);
+    margin-top: 10px;
   }
 
-  a{
-    width : fit-content;
+  a {
+    width: fit-content;
     align-self: center;
     display: block;
-    margin-top : 30px;
+    margin-top: 30px;
   }
 
-  a:hover{
-    color : var(--light-purple);
+  a:hover {
+    color: var(--light-purple);
     background-color: var(--light-purple-tint);
   }
-  .description{
-    color : var(--light-gray);
-    margin-top : 15px;
+  .description {
+    color: var(--light-gray);
+    margin-top: 15px;
   }
 }
 
@@ -318,6 +315,4 @@ a:hover {
     height: 16px;
     margin: 8px 0;
   }
-
-  
 }

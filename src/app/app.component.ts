@@ -40,6 +40,13 @@ export class AppComponent {
     }
   ]
 
+
+  // Projects
+  // - Featured Projects
+  
+
+  // - Noteworthy Projects
+
 }
 
 interface ISkillItem {
@@ -47,3 +54,4 @@ interface ISkillItem {
   title : string,
   content : string
 }
+
