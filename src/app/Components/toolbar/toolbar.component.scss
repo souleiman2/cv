@@ -40,6 +40,11 @@
     padding : 8px;
   }
 
+  #btn-resume:hover{
+    background-color: var(--light-purple-tint);
+    cursor: pointer;
+  }
+
 }
 
 .spacer {
