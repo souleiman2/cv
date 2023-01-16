@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { faGraduationCap, faCertificate, faAward, faLanguage, faFire, faTrophy, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { faCode, faServer, faCube, faBrain } from '@fortawesome/free-solid-svg-icons';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
