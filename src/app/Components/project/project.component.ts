@@ -7,5 +7,5 @@ import { IProject } from '../../Interfaces/project'
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent {
-  @Input() project : IProject | undefined
+  @Input() project! : IProject
 }

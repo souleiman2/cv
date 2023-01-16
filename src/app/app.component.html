@@ -123,8 +123,6 @@
   <div class="inner-container center">
     <h2 class="sub-title"><span class="numb">03.</span> Experience</h2>
   </div>
-</div>
-<div>
   <app-experience id="experience"></app-experience>
 </div>
 
@@ -132,6 +130,14 @@
 <div class="center" id="projects">
   <div class="inner-container center">
     <h2 class="sub-title"><span class="numb">04.</span> Projects</h2>
+
+    <!-- Features Projects -->
+    <div>
+      <app-project
+        *ngFor="let elem of featured_projects"
+        [project]="elem"
+      ></app-project>
+    </div>
   </div>
 </div>
 
@@ -153,7 +159,10 @@
 
     <!-- social networks -->
     <div class="social-net">
-      <a href="https://www.linkedin.com/in/souleiman-ayoub-b82748165/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/souleiman-ayoub-b82748165/"
+        target="_blank"
+      >
         <i
           class="fa fa-linkedin-square fa-fw w3-text-white w3-xxlarge"
           style="font-size: 50px !important"

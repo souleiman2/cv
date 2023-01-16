@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { faGraduationCap, faCertificate, faAward, faLanguage, faFire, faTrophy, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { faCode, faServer, faCube, faBrain } from '@fortawesome/free-solid-svg-icons';
+import { IProject } from './Interfaces/project';
 
 
 @Component({
@@ -44,9 +45,33 @@ export class AppComponent {
 
   // Projects
   // - Featured Projects
-  
+  featured_projects : Array<IProject> = [
+    {
+      title : "PyChessAI",
+      description : "This is the description",
+      dev_tools : ["Python"],
+      img_url : "assets/chess.jpg"
+    },
+    {
+      title : "PyChessAI2",
+      description : "This is the description",
+      dev_tools : ["Python"],
+      img_url : "assets/chess.jpg"
+    }
+    /**
+     * McGill
+     * Real Estate Listing
+     * Sudoku Generator
+     * Data Science projects
+     * Unilinks
+     */
+  ]
 
   // - Noteworthy Projects
+
+  /**
+   * Rest
+   */
 
 }
 

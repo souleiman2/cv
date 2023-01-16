@@ -1,1 +1,14 @@
-<p>project works!</p>
+<div class="project-item">
+    <div class="left-side">
+        <img src={{project.img_url}} alt="">
+    </div>
+    <div class="right-side">
+        <p id="title-label">Featured Project</p>
+        <p id="title">{{project.title}}</p>
+
+        <p id="description">{{project.description}}</p>
+        <p id="dev-tools">
+            <span *ngFor="let item of project.dev_tools">{{item}}</span>
+        </p>
+    </div>
+</div>
