@@ -22,7 +22,7 @@
     .right-side{
         flex : 1;
         text-align : right;
-        padding : 40px 0;
+        padding : 40px 0 40px 20px;
 
         #title-label {
             color : var(--light-purple);
@@ -39,8 +39,25 @@
             font-size : 16px;
         }
         #dev-tools{
-            color : var(--light-gray);
             font-size : 16px;
+            height: fit-content;
+
+            span {
+                padding : 5px 12px;
+                border-radius: 10px;
+                background-color: var(--light-purple);
+                margin : 4px;
+                display: inline-block;
+            }
+        }
+
+        #links{
+            i{
+                color : var(--lighter-gray);;
+                font-size: 30px;
+                margin-top: 15px;
+                margin-left: 5px;
+            }
         }
         
     }

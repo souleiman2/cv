@@ -259,6 +259,14 @@ a:hover {
   margin: 0;
 }
 
+#projects{
+  h2.other{
+    color : var(--lighter-gray);
+    text-align: center;
+  }
+}
+
+
 // contact
 #contact {
   display: flex;

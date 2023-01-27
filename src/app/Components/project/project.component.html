@@ -1,14 +1,23 @@
 <div class="project-item">
-    <div class="left-side">
-        <img src={{project.img_url}} alt="">
-    </div>
-    <div class="right-side">
-        <p id="title-label">Featured Project</p>
-        <p id="title">{{project.title}}</p>
+  <div class="left-side">
+    <img src="{{ project.img_url }}" alt="" />
+  </div>
+  <div class="right-side">
+    <p id="title-label">Featured Project</p>
+    <p id="title">{{ project.title }}</p>
 
-        <p id="description">{{project.description}}</p>
-        <p id="dev-tools">
-            <span *ngFor="let item of project.dev_tools">{{item}}</span>
-        </p>
+    <p id="description">{{ project.description }}</p>
+    <div id="dev-tools">
+      <span *ngFor="let item of project.dev_tools">{{ item }}</span>
     </div>
+
+    <div id="links">
+      <a *ngIf="project.git_url" href={{project.git_url}} target="_blank">
+        <i class="fa fa-github fa-fw w3-text-white w3-xxlarge"></i>
+      </a>
+      <a *ngIf="project.demo_url" href={{project.demo_url}} target="_blank">
+        <i class="fa fa-external-link fa-fw w3-text-white w3-xxlarge"></i>
+      </a>
+    </div>
+  </div>
 </div>
