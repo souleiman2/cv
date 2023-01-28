@@ -1,0 +1,41 @@
+#other-project-container{
+  width : 100%;
+  height : 100%;
+  padding : 20px;
+
+  .left, .right{
+    width: fit-content;
+  }
+  .right {
+    margin-right : 0;
+    margin-left : auto;
+  }
+
+
+  #title-label {
+      color : var(--light-purple);
+      font-size: 18px;
+      margin-bottom: 4px;
+  }
+  #title {
+      color : var(--lighter-gray);
+      font-size : 24px;
+      margin-top : 4px;
+  }
+  #description {
+      color : var(--light-gray);
+      font-size : 16px;
+  }
+  #dev-tools{
+      font-size : 16px;
+      height: fit-content;
+
+      span {
+          padding : 5px 12px;
+          border-radius: 10px;
+          background-color: var(--light-purple);
+          margin : 4px;
+          display: inline-block;
+      }
+  }
+}
