@@ -138,10 +138,15 @@
         [project]="elem"
       ></app-project>
     </div>
+    
     <h2 class="other">Other Noteworthy Projects</h2>
 
-    
-
+    <div class="grid-project">
+      <app-other-project
+        *ngFor="let elem of noteworthy_projects"
+        [project]="elem"
+      ></app-other-project>
+    </div>
   </div>
 </div>
 

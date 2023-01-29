@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TIMELINE_ITEMS } from 'src/app/Services/projects-data';
+import { WORK_ITEMS } from 'src/app/Services/work-data';
 
 
 @Component({
@@ -8,5 +8,5 @@ import { TIMELINE_ITEMS } from 'src/app/Services/projects-data';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent {
-  education_infos = TIMELINE_ITEMS
+  education_infos = WORK_ITEMS
 }

@@ -259,13 +259,18 @@ a:hover {
   margin: 0;
 }
 
-#projects{
-  h2.other{
-    color : var(--lighter-gray);
+#projects {
+  h2.other {
+    color: var(--lighter-gray);
     text-align: center;
   }
+  .grid-project {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 55px;
+    row-gap: 55px;
+  }
 }
-
 
 // contact
 #contact {
@@ -276,7 +281,7 @@ a:hover {
   h1,
   h2,
   a.email-link {
-    margin : auto;
+    margin: auto;
     text-align: center;
   }
 
@@ -286,33 +291,31 @@ a:hover {
     margin-top: 10px;
   }
 
-  a.email-link{
-    width : fit-content;
+  a.email-link {
+    width: fit-content;
     align-self: center;
     display: block;
     margin-top: 30px;
   }
 
-  a.email-link:hover{
-    color : var(--light-purple);
+  a.email-link:hover {
+    color: var(--light-purple);
     background-color: var(--light-purple-tint);
   }
   .description {
     color: var(--light-gray);
     margin-top: 15px;
   }
-  
-  .social-net{
-    text-align: center;
-    margin-top : 40px;
 
-    i{
-      color : white;
-      margin : 0 10px;
+  .social-net {
+    text-align: center;
+    margin-top: 40px;
+
+    i {
+      color: white;
+      margin: 0 10px;
     }
   }
-
-
 }
 
 .email-link {

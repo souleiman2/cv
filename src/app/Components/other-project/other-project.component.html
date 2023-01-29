@@ -1,0 +1,24 @@
+<div id="other-project-container">
+  <a href={{default_url}} target="_blank">
+    <div class="row">
+      <div class="left">
+        <i class="fa fa-folder-o w3-xxlarge"></i>
+      </div>
+      <div class="right">
+        <a *ngIf="project.git_url" href={{project.git_url}} target="_blank">
+          <i class="fa fa-github fa-fw w3-text-white w3-xxlarge"></i>
+        </a>
+        <a *ngIf="project.demo_url" href={{project.demo_url}} target="_blank">
+          <i class="fa fa-external-link fa-fw w3-text-white w3-xxlarge"></i>
+        </a>
+      </div>
+      <div class="cleared"></div>
+    </div>
+  
+    <p id="title">{{ project.title }}</p>
+    <p id="description">{{ project.description }}</p>
+    <div id="dev-tools">
+      <span *ngFor="let item of project.dev_tools">{{ item }}</span>
+    </div>
+  </a>
+  </div>

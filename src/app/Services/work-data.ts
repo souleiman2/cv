@@ -1,6 +1,6 @@
 import { ITimelineItem } from "../Interfaces/experience";
 
-export const TIMELINE_ITEMS: Array<ITimelineItem> = [
+export const WORK_ITEMS: Array<ITimelineItem> = [
     {
       year : "2022",
       content: [

@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { OtherProjectComponent } from './other-project.component';
 
-describe('ExperienceComponent', () => {
+describe('OtherProjectComponent', () => {
   let component: OtherProjectComponent;
   let fixture: ComponentFixture<OtherProjectComponent>;
 

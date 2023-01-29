@@ -1,14 +1,16 @@
 <div class="project-item">
   <div class="left-side">
-    
-    <a *ngIf="default_url" href={{default_url}}>
+    <a href={{default_url}} target="_blank">
       <img src="{{ project.img_url }}" alt="" />
     </a>
     
   </div>
   <div class="right-side">
     <p id="title-label">Featured Project</p>
-    <p id="title">{{ project.title }}</p>
+    <a href={{default_url}}>
+      <p id="title">{{ project.title }}</p>
+    </a>
+    
 
     <p id="description">{{ project.description }}</p>
     <div id="dev-tools">
