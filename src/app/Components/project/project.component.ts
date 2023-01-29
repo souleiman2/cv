@@ -8,4 +8,5 @@ import { IProject } from '../../Interfaces/project'
 })
 export class ProjectComponent {
   @Input() project! : IProject
+  default_url? : string = (this.project.demo_url) ? this.project.demo_url : this.project.git_url;
 }
