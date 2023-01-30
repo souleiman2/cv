@@ -32,7 +32,7 @@
   #num{
     color : var(--light-purple);
   }
-  #btn-resume {
+  .tool-btn {
     background-color: transparent;
     color : var(--light-purple);
     border: 2px solid var(--light-purple);
@@ -40,7 +40,7 @@
     padding : 8px;
   }
 
-  #btn-resume:hover{
+  .tool-btn:hover{
     background-color: var(--light-purple-tint);
     cursor: pointer;
   }

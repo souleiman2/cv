@@ -6,9 +6,10 @@
     <span id="num">0{{ i + 1 }}. </span>
     <span>{{ item.label }}</span>
   </a>
-
+  <button class="tool-btn" (click)="toggleLanguage()">{{languageService.current_language.toUpperCase()}}</button>
   <!-- Resume button -->
   <a download href="assets/cv_en.pdf">
-    <button id="btn-resume">Resume</button>
+    <button class="tool-btn">{{languageService.label_voc.toolbar_resume}}</button>
   </a>
+  
 </div>

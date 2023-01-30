@@ -1,5 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { Component, Inject } from '@angular/core';
+import { LanguageService } from 'src/app/Services/language.service';
 
 @Component({
   selector: 'app-toolbar',
@@ -15,7 +16,7 @@ export class ToolbarComponent {
     {label : "Contact", url : "#contact"}
   ]
 
-  constructor(@Inject(DOCUMENT) document: Document){
+  constructor(@Inject(DOCUMENT) document: Document, public languageService : LanguageService){
     console.log("wow")
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
@@ -28,6 +29,12 @@ export class ToolbarComponent {
       prevScrollpos = currentScrollPos;
     };
   }
+
+  toggleLanguage(){
+    console.log("Wow")
+    this.languageService.toggleLanguage()
+  }
+
 }
 
 interface SectionItem{

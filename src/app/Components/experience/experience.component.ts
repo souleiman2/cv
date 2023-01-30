@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { WORK_ITEMS } from 'src/app/Services/work-data';
+import { ITimelineItem } from 'src/app/Interfaces/experience';
+import { LanguageService } from 'src/app/Services/language.service';
 
 
 @Component({
@@ -8,5 +9,9 @@ import { WORK_ITEMS } from 'src/app/Services/work-data';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent {
-  education_infos = WORK_ITEMS
+  education_infos : Array<ITimelineItem>
+
+  constructor(languageService : LanguageService){
+    this.education_infos = languageService.work_items
+  }
 }

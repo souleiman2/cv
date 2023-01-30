@@ -3,8 +3,8 @@
 
 <!-- landing page -->
 <div class="landing-section">
-  <h1>Full Stack, Machine Learning & Blockchain Developer</h1>
-  <h2>I love what I do, and I never back down from a challenge</h2>
+  <h1>{{languageService.label_voc.title}}</h1>
+  <h2>{{languageService.label_voc.sub_title}}</h2>
   <img
     class="center"
     src="assets/profile.png"
@@ -18,70 +18,63 @@
 <!-- About me section -->
 <div id="about">
   <div class="inner-container center">
-    <h2 class="sub-title"><span class="numb">01.</span> About me</h2>
+    <h2 class="sub-title"><span class="numb">01.</span> {{languageService.label_voc.about_title}}</h2>
     <h1>
-      I’ve studied at Polytechnique in software engineering. I describe myself
-      as a person with integrity, hardworking and passionate. Combining my two
-      greatest passions, mathematics and programming, I have been challenging
-      myself by developing software for 8 years now. Finally, I think that good
-      communication is what makes a great team.
+      {{languageService.label_voc.about_desc}}
     </h1>
 
     <div class="row">
       <div class="col-block">
         <fa-icon [icon]="faGraduationCap"></fa-icon>
-        <h2>Education</h2>
-        <p>- Polytechnique Montreal (2018 - 2021)</p>
-        <p>- Cegep Bois-de-Boulogne (2016 - 2018)</p>
-        <p>- Beaubois College (2011 - 2016)</p>
+        <h2>{{languageService.label_voc.about_education_title}}</h2>
+        <p>- {{languageService.label_voc.about_education_poly}}</p>
+        <p>- {{languageService.label_voc.about_education_cegep}}</p>
+        <p>- {{languageService.label_voc.about_education_beaubois}}</p>
       </div>
       <div class="col-block">
         <fa-icon [icon]="faLanguage"></fa-icon>
-        <h2>Languages</h2>
-        <p>- French (Native)</p>
-        <p>- English (Native)</p>
+        <h2>{{languageService.label_voc.about_language_title}}</h2>
+        <p>- {{languageService.label_voc.about_language_french}}</p>
+        <p>- {{languageService.label_voc.about_language_english}}</p>
       </div>
       <div class="col-block">
         <fa-icon [icon]="faAward"></fa-icon>
-        <h2>Scolarships</h2>
+        <h2>{{languageService.label_voc.about_scholarships_title}}</h2>
         <p>
-          - Mention of Excellence for outstanding performance at Polytechnique
-          Montreal (GPA : 3,63/4)
+          - {{languageService.label_voc.about_scholarships_poly}}
         </p>
         <p>
-          - Recipient of the Admission Excellence Scholarship at Polytechnique
-          Montreal
+          - {{languageService.label_voc.about_scholarships_admission}}
         </p>
       </div>
     </div>
     <div class="row">
       <div class="col-block">
         <fa-icon [icon]="faCertificate"></fa-icon>
-        <h2>Certifications</h2>
+        <h2>{{languageService.label_voc.about_certification_title}}</h2>
         <p>
-          - Recipient of the AWS Certified Machine Learning Specialty
-          certification
+          - {{languageService.label_voc.about_certification_aws_spec}}
         </p>
-        <p>- Recipient of the AWS Cloud Practitioner certification</p>
+        <p>- {{languageService.label_voc.about_certification_aws_found}}</p>
       </div>
       <div class="col-block">
         <fa-icon [icon]="faFire"></fa-icon>
-        <h2>Hackathon</h2>
-        <p>- Google Tech Challenge</p>
-        <p>- McGill Physics Hackathon - 4th place</p>
-        <p>- AI Hackathon at UdeM 6th place</p>
-        <p>- HackQC (3 days): environmental website</p>
-        <p>- ConcordAI Artificial Intelligence Hackathon</p>
-        <p>- LHGames</p>
-        <p>- Hackathon BDC</p>
-        <p>- 2 Capture The Flag</p>
+        <h2>{{languageService.label_voc.about_hack_title}}</h2>
+        <p>- {{languageService.label_voc.about_hack_google}}</p>
+        <p>- {{languageService.label_voc.about_hack_mcgillphys}}</p>
+        <p>- {{languageService.label_voc.about_hack_aiudem}}</p>
+        <p>- {{languageService.label_voc.about_hack_hackqc}}</p>
+        <p>- {{languageService.label_voc.about_hack_concoAI}}</p>
+        <p>- {{languageService.label_voc.about_hack_lhgames}}</p>
+        <p>- {{languageService.label_voc.about_hack_bdc}}</p>
+        <p>- {{languageService.label_voc.about_hack_capture_flag}}</p>
       </div>
       <div class="col-block">
         <fa-icon [icon]="faTrophy"></fa-icon>
-        <h2>Rewards</h2>
-        <p>- 2nd place in a pitch competition at Polytechnique Montreal</p>
+        <h2>{{languageService.label_voc.about_reward_title}}</h2>
+        <p>- {{languageService.label_voc.about_reward_pitch}}</p>
         <p>
-          - 2nd place in a math competition at College Bois-de-Boulogne (COMC)
+          - {{languageService.label_voc.about_reward_math}}
         </p>
       </div>
     </div>
@@ -91,7 +84,7 @@
 <!-- Skills -->
 <div class="center" id="skills">
   <div class="inner-container center">
-    <h2 class="sub-title"><span class="numb">02.</span> Skill</h2>
+    <h2 class="sub-title"><span class="numb">02.</span> {{languageService.label_voc.skill_title}}</h2>
 
     <!-- programming languages
       Python - Java - Typescript - Javascript - HTML - CSS - SCSS - C/C++ - Solidity - Kotlin - SQL - Git
@@ -107,7 +100,7 @@
       Tensorflow - Sklearn - Statsmodels - Matplotlib - Seaborn - Numpy - Scipy - Pandas - NLTK
       -->
     <div class="container">
-      <div class="container-item" *ngFor="let item of skills">
+      <div class="container-item" *ngFor="let item of languageService.skills">
         <app-skill-item
           [icon]="item.icon"
           title="{{ item.title }}"
@@ -121,7 +114,7 @@
 <!-- Experience -->
 <div id="xp">
   <div class="inner-container center">
-    <h2 class="sub-title"><span class="numb">03.</span> Experience</h2>
+    <h2 class="sub-title"><span class="numb">03.</span> {{languageService.label_voc.experience_title}}</h2>
   </div>
   <app-experience id="experience"></app-experience>
 </div>
@@ -129,21 +122,21 @@
 <!-- Work -->
 <div class="center" id="projects">
   <div class="inner-container center">
-    <h2 class="sub-title"><span class="numb">04.</span> Projects</h2>
-
+    <h2 class="sub-title"><span class="numb">04.</span> {{languageService.label_voc.project_title}}</h2>
+    
     <!-- Features Projects -->
     <div>
       <app-project
-        *ngFor="let elem of featured_projects"
+        *ngFor="let elem of languageService.featured_projects"
         [project]="elem"
       ></app-project>
     </div>
     
-    <h2 class="other">Other Noteworthy Projects</h2>
+    <h2 class="other">{{languageService.label_voc.other_notebook_title}}</h2>
 
     <div class="grid-project">
       <app-other-project
-        *ngFor="let elem of noteworthy_projects"
+        *ngFor="let elem of languageService.noteworthy_projects"
         [project]="elem"
       ></app-other-project>
     </div>
@@ -153,17 +146,17 @@
 <!-- Contact -->
 <div class="center" id="contact">
   <div class="inner-container center">
-    <h2 class="sub-title center-text"><span class="numb">05.</span> Contact</h2>
-    <h1>Get In Touch</h1>
+    <h2 class="sub-title center-text"><span class="numb">05.</span> {{languageService.label_voc.contact_title}}</h2>
+    <h1>{{languageService.label_voc.contact_intouch}}</h1>
     <h2 class="description">
-      Feel free to reach out to me. I am always looking for new opportunities.
+      {{languageService.label_voc.contact_message}}
     </h2>
     <a
       class="email-link"
       href="mailto:souleiman.ayoub@gmail.com"
       rel="noopener noreferrer"
       target="_blank"
-      >Say Hello</a
+      >{{languageService.label_voc.contact_hello}}</a
     >
 
     <!-- social networks -->
@@ -186,36 +179,5 @@
     </div>
   </div>
 </div>
-
-<!-- Terminal -->
-<!-- <div class="content" role="main">
-  <input type="hidden" #selection />
-
-  <div class="card-container">
-    <button class="card card-small" (click)="selection.value = 'component'" tabindex="0">
-      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-      </svg>
-      <span>New Component</span>
-    </button>
-
-    <button class="card card-small" (click)="selection.value = 'material'" tabindex="0">
-      <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-      </svg>
-      <span>Angular Material</span>
-    </button>
-  </div>
-
-
-  <div class="terminal" [ngSwitch]="selection.value">
-    <pre *ngSwitchDefault>ng generate component xyz</pre>
-    <pre *ngSwitchCase="'material'">ng add @angular/material</pre>
-    <pre *ngSwitchCase="'pwa'">ng add @angular/pwa</pre>
-    <pre *ngSwitchCase="'dependency'">ng add _____</pre>
-    <pre *ngSwitchCase="'test'">ng test</pre>
-    <pre *ngSwitchCase="'build'">ng build</pre>
-  </div>
-</div> -->
 
 <router-outlet></router-outlet>

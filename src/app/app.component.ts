@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { faGraduationCap, faCertificate, faAward, faLanguage, faFire, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { IProject } from './Interfaces/project';
-import { featured_projects, noteworthy_projects } from './Services/project-data';
-import { ISkillItem, skills } from './Services/skill-data'
+import { Labels } from './Services/labels-data';
+import { LanguageService } from './Services/language.service';
+import { ISkillItem } from './Services/skill-data'
 
 @Component({
   selector: 'app-root',
@@ -17,8 +18,16 @@ export class AppComponent {
   faFire = faFire
   faTrophy = faTrophy
   
-  featured_projects : IProject[] = featured_projects
-  noteworthy_projects : IProject[] = noteworthy_projects
-  skills : ISkillItem[] = skills
+  // featured_projects : IProject[]
+  // noteworthy_projects : IProject[]
+  // skills : ISkillItem[]
+  // labels : Labels
+  
+  constructor(public languageService : LanguageService){
+    // this.featured_projects = languageService.featured_projects
+    // this.noteworthy_projects = languageService.noteworthy_projects
+    // this.skills = languageService.skills
+    // this.labels = languageService.label_voc
+  }
 }
 

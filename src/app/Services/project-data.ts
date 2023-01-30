@@ -2,7 +2,7 @@ import { IProject } from "../Interfaces/project";
 
 // Projects
 // - Featured Projects
-export const featured_projects: Array<IProject> = [
+export const featured_projects_en: Array<IProject> = [
   {
     title: "PyChessAI",
     description:
@@ -46,7 +46,7 @@ export const featured_projects: Array<IProject> = [
 ];
 
 // - Noteworthy Projects
-export const noteworthy_projects: Array<IProject> = [
+export const noteworthy_projects_en : Array<IProject> = [
   {
     title: "FastFix",
     description:

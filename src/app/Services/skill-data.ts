@@ -8,7 +8,7 @@ import {
 
 // Skills
 
-export const skills: Array<ISkillItem> = [
+export const skills_en: Array<ISkillItem> = [
   {
     icon: faCube,
     title: "Frontend",
