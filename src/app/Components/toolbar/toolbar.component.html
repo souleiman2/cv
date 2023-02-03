@@ -2,11 +2,11 @@
   <span id="logo">SA</span>
   <!-- <img alt="Logo" src="assets/logo.png" /> -->
   <div class="spacer"></div>
-  <a *ngFor="let item of sections; let i = index" href="{{ item.url }}">
+  <a *ngFor="let item of languageService.toolbar_sections; let i = index" href="{{ item.url }}">
     <span id="num">0{{ i + 1 }}. </span>
     <span>{{ item.label }}</span>
   </a>
-  <button class="tool-btn" (click)="toggleLanguage()">{{languageService.current_language.toUpperCase()}}</button>
+  <button class="tool-btn" (click)="toggleLanguage()">{{trans_lang()}}</button>
   <!-- Resume button -->
   <a download href="assets/cv_en.pdf">
     <button class="tool-btn">{{languageService.label_voc.toolbar_resume}}</button>

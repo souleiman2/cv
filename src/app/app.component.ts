@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { faGraduationCap, faCertificate, faAward, faLanguage, faFire, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import { IProject } from './Interfaces/project';
-import { Labels } from './Services/labels-data';
+import { Labels } from './Data/labels-data';
 import { LanguageService } from './Services/language.service';
-import { ISkillItem } from './Services/skill-data'
+import { ISkillItem } from './Data/skill-data'
 
 @Component({
   selector: 'app-root',
