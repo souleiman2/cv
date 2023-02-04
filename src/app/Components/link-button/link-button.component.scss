@@ -1,0 +1,13 @@
+button.link-button {
+  background-color: var(--light-purple);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  
+  span{
+    margin-left: 3px;
+  }
+}

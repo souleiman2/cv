@@ -1,29 +1,36 @@
 <div class="project-item">
   <div class="left-side">
-    <a href={{default_url}} target="_blank">
+    <a href="{{ default_url }}" target="_blank">
       <img src="{{ project.img_url }}" alt="" />
     </a>
-    
   </div>
   <div class="right-side">
     <p id="title-label">Featured Project</p>
-    <a href={{default_url}}>
+    <a href="{{ default_url }}">
       <p id="title">{{ project.title }}</p>
     </a>
-    
 
     <p id="description">{{ project.description }}</p>
     <div id="dev-tools">
-      <span *ngFor="let item of project.dev_tools">{{ item }}</span>
+      <app-badge
+        *ngFor="let item of project.dev_tools"
+        label="{{ item }}"
+      ></app-badge>
     </div>
 
     <div id="links">
-      <a *ngIf="project.git_url" href={{project.git_url}} target="_blank">
-        <i class="fa fa-github fa-fw w3-text-white w3-xxlarge"></i>
-      </a>
-      <a *ngIf="project.demo_url" href={{project.demo_url}} target="_blank">
-        <i class="fa fa-external-link fa-fw w3-text-white w3-xxlarge"></i>
-      </a>
+      <app-link-button
+        *ngIf="project.git_url"
+        url="{{ project.git_url }}"
+        icon_class="fa fa-github fa-fw w3-text-white w3-xxlarge"
+        label="Code"
+      ></app-link-button>
+      <app-link-button
+        *ngIf="project.demo_url"
+        url="{{ project.demo_url }}"
+        icon_class="fa fa-external-link fa-fw w3-text-white w3-xxlarge"
+        label="Demo"
+      ></app-link-button>
     </div>
   </div>
 </div>
