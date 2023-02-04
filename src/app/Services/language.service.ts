@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { ITimelineItem } from '../Interfaces/experience';
 import { IProject } from '../Interfaces/project';
 import { Language, en_labels, Labels, fr_labels } from '../Data/labels-data'
-import { featured_projects_en, noteworthy_projects_en } from '../Data/project-data';
+import { featured_projects_en, noteworthy_projects_en, featured_projects_fr, noteworthy_projects_fr } from '../Data/project-data';
 import { ISkillItem, skills_en, skills_fr } from '../Data/skill-data';
 import { work_items_en } from '../Data/work-data';
 import { SectionItem, sections_en, sections_fr } from '../Data/toolbar-data';
@@ -27,6 +27,9 @@ export class LanguageService {
       this.label_voc = fr_labels
       this.toolbar_sections = sections_fr
       this.skills = skills_fr
+      this.featured_projects = featured_projects_fr
+      this.noteworthy_projects = noteworthy_projects_fr
+
     }else{
       this.toolbar_sections = sections_en
       this.current_language = Language.ENGLISH
