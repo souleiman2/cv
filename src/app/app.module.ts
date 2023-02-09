@@ -10,6 +10,8 @@ import { ExperienceItemComponent } from './Components/experience-item/experience
 import { SkillItemComponent } from './Components/skill-item/skill-item.component';
 import { ProjectComponent } from './Components/project/project.component';
 import { OtherProjectComponent } from './Components/other-project/other-project.component';
+import { LinkButtonComponent } from './Components/link-button/link-button.component';
+import { BadgeComponent } from './Components/badge/badge.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { OtherProjectComponent } from './Components/other-project/other-project.
     ExperienceItemComponent,
     SkillItemComponent,
     ProjectComponent,
-    OtherProjectComponent
+    OtherProjectComponent,
+    LinkButtonComponent,
+    BadgeComponent
   ],
   imports: [
     BrowserModule,
