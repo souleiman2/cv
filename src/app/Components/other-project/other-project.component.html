@@ -9,13 +9,13 @@
           *ngIf="project.git_url"
           url="{{ project.git_url }}"
           icon_class="fa fa-github fa-fw w3-text-white w3-xxlarge"
-          label="Code"
+          label={{languageService.label_voc.project_code}}
         ></app-link-button>
         <app-link-button
           *ngIf="project.demo_url"
           url="{{ project.demo_url }}"
           icon_class="fa fa-external-link fa-fw w3-text-white w3-xxlarge"
-          label="Demo"
+          label={{languageService.label_voc.project_demo}}
         ></app-link-button>
       </div>
       <div class="cleared"></div>

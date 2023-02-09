@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { IProject } from 'src/app/Interfaces/project';
+import { LanguageService } from 'src/app/Services/language.service';
 
 @Component({
   selector: 'app-other-project',
@@ -8,6 +9,10 @@ import { IProject } from 'src/app/Interfaces/project';
 })
 export class OtherProjectComponent {
   default_url : string | undefined
+
+  constructor(public languageService : LanguageService){}
+
+
   @Input()
   get project(): IProject { return this._project; }
   set project(project: IProject) {

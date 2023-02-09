@@ -4,7 +4,7 @@ import { IProject } from '../Interfaces/project';
 import { Language, en_labels, Labels, fr_labels } from '../Data/labels-data'
 import { featured_projects_en, noteworthy_projects_en, featured_projects_fr, noteworthy_projects_fr } from '../Data/project-data';
 import { ISkillItem, skills_en, skills_fr } from '../Data/skill-data';
-import { work_items_en } from '../Data/work-data';
+import { work_items_en, work_items_fr } from '../Data/work-data';
 import { SectionItem, sections_en, sections_fr } from '../Data/toolbar-data';
 
 @Injectable({
@@ -29,6 +29,7 @@ export class LanguageService {
       this.skills = skills_fr
       this.featured_projects = featured_projects_fr
       this.noteworthy_projects = noteworthy_projects_fr
+      this.work_items = work_items_fr
 
     }else{
       this.toolbar_sections = sections_en

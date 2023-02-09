@@ -81,35 +81,6 @@
   </div>
 </div>
 
-<!-- Skills -->
-<div class="center" id="skills">
-  <div class="inner-container center">
-    <h2 class="sub-title"><span class="numb">02.</span> {{languageService.label_voc.skill_title}}</h2>
-
-    <!-- programming languages
-      Python - Java - Typescript - Javascript - HTML - CSS - SCSS - C/C++ - Solidity - Kotlin - SQL - Git
-
-      Front end
-      Angular - React - React Native - Redux - Bootstrap - Web/Android/IOS - Ionic
-
-      Backend
-      Flask - Django - Kubernetes - AWS - Azure - NodeJS - Firebase - Docker - Elasticsearch - Logstash - Kibana - PostgreSQL - MongoDB - Dynamodb
-
-
-      Machine learning
-      Tensorflow - Sklearn - Statsmodels - Matplotlib - Seaborn - Numpy - Scipy - Pandas - NLTK
-      -->
-    <div class="container">
-      <div class="container-item" *ngFor="let item of languageService.skills">
-        <app-skill-item
-          [icon]="item.icon"
-          title="{{ item.title }}"
-          content="{{ item.content }}"
-        ></app-skill-item>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Experience -->
 <div id="xp">
@@ -139,6 +110,37 @@
         *ngFor="let elem of languageService.noteworthy_projects"
         [project]="elem"
       ></app-other-project>
+    </div>
+  </div>
+</div>
+
+
+<!-- Skills -->
+<div class="center" id="skills">
+  <div class="inner-container center">
+    <h2 class="sub-title"><span class="numb">02.</span> {{languageService.label_voc.skill_title}}</h2>
+
+    <!-- programming languages
+      Python - Java - Typescript - Javascript - HTML - CSS - SCSS - C/C++ - Solidity - Kotlin - SQL - Git
+
+      Front end
+      Angular - React - React Native - Redux - Bootstrap - Web/Android/IOS - Ionic
+
+      Backend
+      Flask - Django - Kubernetes - AWS - Azure - NodeJS - Firebase - Docker - Elasticsearch - Logstash - Kibana - PostgreSQL - MongoDB - Dynamodb
+
+
+      Machine learning
+      Tensorflow - Sklearn - Statsmodels - Matplotlib - Seaborn - Numpy - Scipy - Pandas - NLTK
+      -->
+    <div class="container">
+      <div class="container-item" *ngFor="let item of languageService.skills">
+        <app-skill-item
+          [icon]="item.icon"
+          title="{{ item.title }}"
+          content="{{ item.content }}"
+        ></app-skill-item>
+      </div>
     </div>
   </div>
 </div>

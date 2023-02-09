@@ -2,7 +2,7 @@
   <img src="assets/montgolfiere.png" id="balloon" alt="Hot air balloon" />
   <div class="timeline">
     <div
-      *ngFor="let item of this.education_infos; let i = index"
+      *ngFor="let item of this.languageService.work_items; let i = index"
       [className]="'container ' + (i % 2 == 0 ? 'left' : 'right')"
     >
       <div

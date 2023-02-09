@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ITimelineItem } from 'src/app/Interfaces/experience';
 import { LanguageService } from 'src/app/Services/language.service';
 
 
@@ -9,9 +8,6 @@ import { LanguageService } from 'src/app/Services/language.service';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent {
-  education_infos : Array<ITimelineItem>
-
-  constructor(languageService : LanguageService){
-    this.education_infos = languageService.work_items
+  constructor(public languageService : LanguageService){
   }
 }

@@ -45,6 +45,8 @@ export const en_labels : Labels = {
 
     project_title : "Projects",
     project_featured : "Featured Project",
+    project_code : "Code",
+    project_demo : "Demo",
     other_notebook_title : "Other Noteworthy Projects",
 
     contact_title : "Contact",
@@ -98,6 +100,8 @@ export const fr_labels : Labels = {
 
     project_title : "Projets",
     project_featured : "Projet vedette",
+    project_code : "Code",
+    project_demo : "Démo",
     other_notebook_title : "Autres projets",
 
     contact_title : "Contacter",
@@ -148,6 +152,8 @@ export interface Labels {
 
     project_title : string,
     project_featured : string,
+    project_code : string,
+    project_demo : string,
     other_notebook_title : string,
 
     contact_title : string,

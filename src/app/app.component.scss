@@ -62,7 +62,7 @@ p {
 }
 
 #about {
-  background-color: var(--gray);
+  background-color: var(--lighter-background);
   color: var(--lighter-gray);
   h1 {
     font-size: 30px;
@@ -73,7 +73,6 @@ p {
   }
   p {
     color: var(--light-gray);
-    margin-top: 15px;
   }
   .row {
     width: 100%;
@@ -99,14 +98,12 @@ p {
   }
 }
 
+#xp{
+  margin-top: 20px;
+}
+
 #skills {
-  // .col-block {
-  //   width: 47%;
-  //   margin: 10px 10px;
-  //   display: inline-table;
-  //   background-color: var(--light-purple);
-  //   padding : 8px 8px;
-  // }
+  margin-top : 15px;
   .container {
     width: 100%;
     display: grid;
@@ -139,9 +136,15 @@ p {
 }
 
 #projects {
+  margin-top : 20px;
+  h2.sub-title{
+    margin-bottom: 50px;
+  }
   h2.other {
     color: var(--lighter-gray);
     text-align: center;
+    margin-top : 50px;
+    margin-bottom : 40px;
   }
   .grid-project {
     display: grid;

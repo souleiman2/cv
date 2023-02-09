@@ -8,4 +8,5 @@ export interface Experience {
   subTitle: String | null;
   elemList: String[] | null;
   time: String | null;
+  sum? : string
 }

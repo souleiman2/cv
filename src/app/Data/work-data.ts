@@ -1,82 +1,129 @@
 import { ITimelineItem } from "../Interfaces/experience";
 
 export const work_items_en: Array<ITimelineItem> = [
-    {
-      year : "2022",
-      content: [
-        {
-          title: "Consultant",
-          subTitle: "Omnia, Deloitte",
-          elemList: [
-            "Skills used : Amazon Web Services (AWS) - Lambda, Opensearch, Dynamodb · Kubernetes · Elasticsearch · Solidity · React.js · Django Rest Framework"
-          ],
-          time: "Aug. 2021 – Present",
-        },
-      ]
-    },
-    {
-      year : "2021",
-      content : [
-        {
-          title: "Polytechnique Montreal",
-          subTitle: "Bachelor in Software Engineering",
-          elemList: [
-            "Recipient of the Admission Excellence Scholarship",
-            "Mention of Excellence for outstanding performance (GPA : 3,63/4)"
-          ],
-          time: "Aug. 2018 – 2021",
-        }
-      ]
-    },
-    {
-      year : "2020",
-      content : [
-        {
-          title : "Software Engineering internship",
-          subTitle : "Machine learning on a Mitacs project",
-          elemList : ["Made many AI models that input students profiles to recommend goals and means"],
-          time : "Summer 2020"
-        },
-        {
-          title : "Initiation to research",
-          subTitle : "Polytechnique Montreal",
-          elemList : ["Brain segmentation on newborns from 3D MRI scans using machine learning in computer vision"],
-          time : "Sept. 2019 – May 2020"
-        }
-      ]
-    },
-    {
-      year : "2018",
-      content : [
-        {
-          title : "College Bois-de-Boulogne",
-          subTitle: "DEC in Computer Science and Mathematics",
-          elemList : null,
-          time : "Aug. 2016 – May 2018"
-        },
-        {
-          title : "Research assistant",
-          subTitle : "Shriners Hospitals for Children",
-          elemList : ["Creation of a native Android application to help children become familiar with their handicap by playing instructive games"],
-          time : "Summer: 2017 – 2018"
-        },
-        {
-          title : "Tutor in CS, Math and Physics",
-          subTitle : null,
-          elemList : null,
-          time : "2017 – 2018"
-        }
-      ]
-    },
-    {
-      year : "2016",
-      content : [
-        {
-          title : "Beaubois",
-          subTitle : null,
-          elemList: ["Programmed Chess engine in Basic (Bot/Human vs Bot/Human)"],
-          time : "Aug. 2011 – May 2016"
-        }
-      ]
-    }
-  ]
+  {
+    year: "2022",
+    content: [
+      {
+        title: "Consultant",
+        subTitle: "Omnia, Deloitte",
+        sum: "So far, on my journey at Deloitte I’ve mainly been a part of 3 projects",
+        elemList: [
+          "Delivered successfully on the frontend, backend and devops (AWS) side of a webapp that showcases the datasets owned by a banking institution",
+          "Led the development team for a platform that leverages blockchain technology to allow clients to profit from their underutilized datasets",
+          "Developed successfully logic apps, function apps as well as pipelines on Azure Synapse that allowed CCQ to migrate and modernized their backend infrastructure"
+        ],
+        time: "January 2022 - Present",
+      },
+    ]
+  },
+  {
+    year: "2021",
+    content: [
+      {
+        title: "Data Science (Intern)",
+        subTitle: "Desjardins Group",
+        elemList: [
+          "Designed a Flask microservice which has an unsupervised model that can consolidate the financial profile of multiple users to offer recommendation",
+          "Presented multiple times our team’s work to Desjardins partners and in front of Guy Cormier",
+          "Explored multiple ways of addressing the need for data such as creating our own data, using a couple of public datasets and exploring APIs"
+        ],
+        time: "May 2021 - August 2021",
+      }
+    ]
+  },
+  {
+    year: "2020",
+    content: [
+      {
+        title : "Data Science (Intern)",
+        subTitle : "Mitacs – Eduplan Solutions",
+        elemList : [
+          "Created multiple ML models in Python whose purposes were to recommend means and goals to students then compare them with each other thanks to performance metrics",
+          "Communicated with the client to align on the vision for the project and manage expectations while explaining the different possibilities available with the available resources",
+          "Extracted information from the database by using SQL"
+        ],
+        time : "May 2020 - August 2020"
+      }
+    ]
+  },
+  {
+    year : "2019",
+    content : [
+      {
+        title : "Initiation to ML Research",
+        subTitle : "Polytechnique Montreal",
+        elemList : [
+          "Developed a Computer Vision algorithm that would segment newborn brains from 3D MRI scans with an accuracy of more than 95% on the validation set",
+          "Produced a thorough explanation of the algorithm in the form of a Jupyter Notebook and included original ways of making the algorithm possibly better",
+          "Scrapped a website to download the MRI scans"
+        ],
+        time : "September 2019 - May 2020"
+      }
+    ]
+  }
+]
+
+export const work_items_fr: Array<ITimelineItem> = [
+  {
+    year: "2022",
+    content: [
+      {
+        title: "Consultant",
+        subTitle: "Omnia, Deloitte",
+        sum: "Jusqu'à présent, au cours de mon parcours chez Deloitte, j'ai fait part de 3 projets",
+        elemList: [
+          "Livré avec succès sur le côté frontend, backend et devops (AWS) d'une application Web qui présente les ensembles de données appartenant à une institution bancaire",
+          "A dirigé l'équipe de développement d'une plate-forme qui exploite la technologie blockchain pour permettre aux clients de tirer profit de leurs ensembles de données sous-utilisés",
+          "Développé des logic app, des function app ainsi que des pipelines sur Azure Synapse qui ont permis à la CCQ de migrer et de moderniser son infrastructure backend"
+        ],
+        time: "Janvier 2022 - Présent",
+      },
+    ]
+  },
+  {
+    year: "2021",
+    content: [
+      {
+        title: "Science des données (stagiaire)",
+        subTitle: "Mouvement Desjardins",
+        elemList: [
+          "Conception d'un microservice Flask doté d'un modèle non supervisé pouvant consolider le profil financier de plusieurs utilisateurs pour proposer des recommandations",
+          "Présenté à plusieurs reprises le travail de notre équipe aux partenaires de Desjardins et devant Guy Cormier",
+          "Exploration de plusieurs façons de répondre au besoin de données, telles que la création de nos propres données, l'utilisation de quelques ensembles de données publics ensemble et l'exploration d'API"
+        ],
+        time: "Mai 2021 - Août 2021",
+      }
+    ]
+  },
+  {
+    year: "2020",
+    content: [
+      {
+        title : "Science des données (stagiaire)",
+        subTitle : "Mitacs – Eduplan Solutions",
+        elemList : [
+          "Création de plusieurs modèles ML en Python dont les objectifs étaient de recommander des moyens et des objectifs aux étudiants puis de comparer les modèles entre eux grâce à des métriques de performance",
+          "Communiquer avec le client pour s'aligner sur la vision du projet et gérer leurs attentes tout en expliquant les différentes possibilités disponibles avec les ressources disponibles",
+          "Informations extraites d'une base de données à l'aide de SQL"
+        ],
+        time : "Mai 2020 - Août 2020"
+      }
+    ]
+  },
+  {
+    year : "2019",
+    content : [
+      {
+        title : "Initiation à la recherche ML",
+        subTitle : "Polytechnique Montréal",
+        elemList : [
+          "Développement d'un algorithme de vision par ordinateur qui segmente le cerveau des nouveau-nés à partir d'examens IRM 3D avec une précision de plus de 95 % sur l'ensemble de validation",
+          "Produit une explication approfondie de l'algorithme sous la forme d'un cahier Jupyter et inclus des moyens originaux d'améliorer éventuellement l'algorithme",
+          "Grattage de site Web pour télécharger les scans IRM"
+        ],
+        time : "Septembre 2019 - Mai 2020"
+      }
+    ]
+  }
+]

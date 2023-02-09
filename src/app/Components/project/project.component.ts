@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { LanguageService } from 'src/app/Services/language.service';
 import { IProject } from '../../Interfaces/project'
 
 @Component({
@@ -8,6 +9,10 @@ import { IProject } from '../../Interfaces/project'
 })
 export class ProjectComponent {
   default_url : string | undefined
+
+  constructor(public languageService : LanguageService){
+  }
+
   @Input()
   get project(): IProject { return this._project; }
   set project(project: IProject) {
