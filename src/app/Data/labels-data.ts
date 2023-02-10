@@ -39,7 +39,7 @@ export const en_labels : Labels = {
     about_reward_pitch : "2nd place in a pitch competition at Polytechnique Montreal",
     about_reward_math : "2nd place in a math competition at College Bois-de-Boulogne (COMC)",
 
-    skill_title : "Skill",
+    skill_title : "Skills",
 
     experience_title : "Experience",
 
@@ -104,7 +104,7 @@ export const fr_labels : Labels = {
     project_demo : "Démo",
     other_notebook_title : "Autres projets",
 
-    contact_title : "Contacter",
+    contact_title : "Me Contacter",
     contact_intouch : "Entrer en contact",
     contact_message : "N'hésitez pas à me contacter. Je suis toujours à la recherche de nouvelles opportunités.",
     contact_hello : "Contactez moi",
