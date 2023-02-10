@@ -25,7 +25,7 @@
   .right-side {
     flex: 1;
     text-align: right;
-    padding: 40px 0 40px 20px;
+    padding: 20px 0 30px 20px;
     a {
       color: var(--lighter-gray);
     }
@@ -48,10 +48,7 @@
       font-size: 12px;
       height: fit-content;
       display: inline-block;
-    }
-
-    #links {
-        margin-top: 10px;
+      margin-top: 20px;
     }
   }
 }

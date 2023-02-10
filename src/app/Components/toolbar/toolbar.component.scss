@@ -33,6 +33,9 @@
   #num{
     color : var(--light-purple);
   }
+  #label{
+    border-bottom: 2px solid var(--lighter-gray);
+  }
   .tool-btn {
     background-color: transparent;
     color : var(--light-purple);

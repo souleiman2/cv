@@ -6,8 +6,10 @@ a {
   width: 100%;
   height: 100%;
   padding: 20px;
+  min-height: 200px;
   background-color: var(--lighter-background);
   transition: transform 500ms;
+  position: relative;
 
   app-link-button{
     margin-left: 5px;
@@ -51,7 +53,10 @@ a {
   #dev-tools {
     font-size: 12px;
     height: fit-content;
-    float: right;
+    position: absolute;
+    right : 20px;
+    bottom : 30px;
+    max-width: 250px;
   }
 }
 #other-project-container:hover {
