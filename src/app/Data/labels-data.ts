@@ -66,8 +66,7 @@ export const fr_labels : Labels = {
     about_desc : `J'ai étudié à Polytechnique en génie logiciel. je me décris
     comme étant une personne intègre, travailleuse et passionnée. Combinant mes deux
     grandes passions, les mathématiques et la programmation, j'ai relevé des défis
-    en développant des logiciels depuis maintenant 8 ans. Enfin, je pense que c'est bien
-    la communication qui fait une bonne équipe.`,
+    en développant des logiciels depuis maintenant 8 ans. Enfin, je pense qu'une bonne communication est un élément essentiel dans une bonne équipe.`,
     about_education_title : "Éducation",
     about_education_poly : "Polytechnique Montréal (2018 - 2021)",
     about_education_cegep : "Cégep Bois-de-Boulogne (2016 - 2018)",
@@ -105,9 +104,9 @@ export const fr_labels : Labels = {
     other_notebook_title : "Autres projets",
 
     contact_title : "Me Contacter",
-    contact_intouch : "Entrer en contact",
+    contact_intouch : "Contactez-moi",
     contact_message : "N'hésitez pas à me contacter. Je suis toujours à la recherche de nouvelles opportunités.",
-    contact_hello : "Contactez moi",
+    contact_hello : "Envoyer moi un message",
 
     toolbar_resume : "CV"
 }

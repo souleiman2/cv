@@ -14,15 +14,15 @@ const skills = [
   },
   {
     icon: faCode,
-    content: "Python - Java - Typescript - Javascript - HTML - CSS - SCSS - C/C++ - Solidity - Kotlin - SQL - Git",
+    content: "Python - Java - Typescript - Javascript - C/C++ - Solidity - Kotlin - Bash - SQL - Git - HTML - CSS - SCSS",
   },
   {
     icon: faServer,
-    content: "Flask - Django - Kubernetes - AWS - Azure - NodeJS - Firebase - Docker - Elasticsearch - Logstash - Kibana - PostgreSQL - MongoDB - Dynamodb",
+    content: "Flask - Django - Kubernetes - AWS - Azure - NodeJS - Postman - Firebase - Docker - Elasticsearch - Logstash - Kibana - PostgreSQL - MongoDB - Dynamodb",
   },
   {
     icon: faBrain,
-    content: "Tensorflow - Sklearn - Statsmodels - Matplotlib - Seaborn - Numpy - Scipy - Pandas - NLTK",
+    content: "Tensorflow - Sklearn - Keras - PySpark - Statsmodels - Matplotlib - Seaborn - Plotly - Numpy - Scipy - Pandas - NLTK - Computer Vision - NLP - Classification - Regression - Reinforcement Learning - Image Segmentation - Style Transfer - Image Generation",
   },
 ];
 
