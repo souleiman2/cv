@@ -56,3 +56,13 @@
 .spacer {
   flex: 1;
 }
+
+@media screen and (max-width: 930px) {
+  .toolbar{
+    place-content: center;
+    position: static;
+  }
+  .sections, #logo, .spacer{
+    display : none;
+  }
+}

@@ -49,6 +49,7 @@ p {
   #computer-design {
     width: 700px;
     margin-bottom: 10px;
+    max-width: 100%;
   }
 }
 
@@ -64,6 +65,7 @@ p {
 #about {
   background-color: var(--lighter-background);
   color: var(--lighter-gray);
+
   h1 {
     font-size: 30px;
     margin-bottom: 60px;
@@ -122,6 +124,7 @@ p {
 }
 
 .inner-container {
+  max-width: 100%;
   max-width: 1100px;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -147,6 +150,7 @@ p {
     margin-bottom : 40px;
   }
   .grid-project {
+    max-width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 55px;
@@ -211,14 +215,45 @@ p {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 767px) {
-  .card-container > *:not(.circle-link),
-  .terminal {
-    width: 100%;
-  }
+// @media screen and (max-width: 767px) {
+//   .card-container > *:not(.circle-link),
+//   .terminal {
+//     width: 100%;
+//   }
 
-  .card:not(.highlight-card) {
-    height: 16px;
-    margin: 8px 0;
+//   .card:not(.highlight-card) {
+//     height: 16px;
+//     margin: 8px 0;
+//   }
+// }
+
+@media screen and (max-width: 930px) {
+  .landing-section {
+    padding-left : 5px;
+    padding-right : 5px;
+  }
+  #xp{
+    padding-left: 10px;
+  }
+  .col-block {
+    width : 90% !important;
+  }
+  .inner-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top : 40px;
+    padding-bottom : 40px;
+  }
+  .grid-project {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #skills {
+    .container {
+      grid-gap: 5px;
+    }
+    .sub-title {
+      margin-bottom: 10px !important;
+    }
   }
 }

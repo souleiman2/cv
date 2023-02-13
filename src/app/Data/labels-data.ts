@@ -8,7 +8,7 @@ export const en_labels : Labels = {
     sub_title : "I love what I do, and I never back down from a challenge",
 
     about_title : "About me",
-    about_desc : `I’ve studied at Polytechnique in software engineering. I describe myself
+    about_desc : `My name is Souleiman Ayoub. I’ve studied at Polytechnique in software engineering. I describe myself
     as a person with integrity, hardworking and passionate. Combining my two
     greatest passions, mathematics and programming, I have been challenging
     myself by developing software for 8 years now. Finally, I think that good
@@ -63,7 +63,7 @@ export const fr_labels : Labels = {
     sub_title : "J'aime ce que je fais ainsi que les défis",
 
     about_title : "À propos de moi",
-    about_desc : `J'ai étudié à Polytechnique en génie logiciel. je me décris
+    about_desc : `Mon nom est Souleiman Ayoub. J'ai étudié à Polytechnique en génie logiciel. je me décris
     comme étant une personne intègre, travailleuse et passionnée. Combinant mes deux
     grandes passions, les mathématiques et la programmation, j'ai relevé des défis
     en développant des logiciels depuis maintenant 8 ans. Enfin, je pense qu'une bonne communication est un élément essentiel dans une bonne équipe.`,

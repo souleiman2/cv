@@ -2,7 +2,7 @@
   <span id="logo">SA</span>
   <!-- <img alt="Logo" src="assets/logo.png" /> -->
   <div class="spacer"></div>
-  <a *ngFor="let item of languageService.toolbar_sections; let i = index" href="{{ item.url }}">
+  <a *ngFor="let item of languageService.toolbar_sections; let i = index" href="{{ item.url }}" class="sections">
     <span id="num">0{{ i + 1 }}. </span>
     <span id="label">{{ item.label }}</span>
   </a>

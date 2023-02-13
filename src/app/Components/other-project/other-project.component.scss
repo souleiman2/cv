@@ -62,3 +62,13 @@ a {
 #other-project-container:hover {
   transform: translateY(-7px);
 }
+@media screen and (max-width: 930px) {
+  #other-project-container {
+    width: calc(100% - 40px);
+    
+    #dev-tools{
+      position: static;
+      max-width: none;
+    }
+  }
+}
