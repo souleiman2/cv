@@ -11,7 +11,7 @@ export const work_items_en: Array<ITimelineItem> = [
         elemList: [
           "Delivered successfully on the frontend, backend and devops (AWS) side of a webapp that showcases the datasets owned by a banking institution",
           "Led the development team for a platform that leverages blockchain technology to allow clients to profit from their underutilized datasets",
-          "Developed successfully logic apps, function apps as well as pipelines on Azure Synapse that allowed CCQ to migrate and modernized their backend infrastructure"
+          "Developed successfully logic apps, function apps as well as pipelines on Azure Synapse that allowed a government entity to migrate and modernized their backend infrastructure"
         ],
         time: "January 2022 - Present",
       },
@@ -75,7 +75,7 @@ export const work_items_fr: Array<ITimelineItem> = [
         elemList: [
           "Livré avec succès sur le côté frontend, backend et devops (AWS) d'une application Web qui présente les ensembles de données appartenant à une institution bancaire",
           "A dirigé l'équipe de développement d'une plate-forme qui exploite la technologie blockchain pour permettre aux clients de tirer profit de leurs ensembles de données sous-utilisés",
-          "Développé des logic app, des function app ainsi que des pipelines sur Azure Synapse qui ont permis à la CCQ de migrer et de moderniser son infrastructure backend"
+          "Développé des logic app, des function app ainsi que des pipelines sur Azure Synapse qui ont permis à une entité gouvernementale de migrer et de moderniser son infrastructure backend"
         ],
         time: "Janvier 2022 - Présent",
       },
