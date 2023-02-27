@@ -5,7 +5,7 @@ export const work_items_en: Array<ITimelineItem> = [
     year: "2022",
     content: [
       {
-        title: "Consultant",
+        title: "Data Engineer Consultant",
         subTitle: "Omnia, Deloitte",
         sum: "So far, on my journey at Deloitte I’ve mainly been a part of 3 projects",
         elemList: [
