@@ -69,7 +69,7 @@ export const work_items_fr: Array<ITimelineItem> = [
     year: "2022",
     content: [
       {
-        title: "Consultant",
+        title: "Consultant Ingénieur de données",
         subTitle: "Omnia, Deloitte",
         sum: "Jusqu'à présent, au cours de mon parcours chez Deloitte, j'ai fait part de 3 projets",
         elemList: [
