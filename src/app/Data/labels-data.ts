@@ -4,11 +4,11 @@ export enum Language{
 }
 
 export const en_labels : Labels = {
-    title : "Full Stack, Machine Learning & Blockchain Developer",
-    sub_title : "I love what I do, and I never back down from a challenge",
+    title : "Python, DevOps and Machine Learning Developer",
+    sub_title : "I never back down from a challenge",
 
     about_title : "About me",
-    about_desc : `My name is Souleiman Ayoub. I’ve studied at Polytechnique in software engineering. I describe myself
+    about_desc : `I’ve studied at Polytechnique in software engineering. I describe myself
     as a person with integrity, hardworking and passionate. Combining my two
     greatest passions, mathematics and programming, I have been challenging
     myself by developing software for 8 years now. Finally, I think that good
@@ -39,7 +39,7 @@ export const en_labels : Labels = {
     about_reward_pitch : "2nd place in a pitch competition at Polytechnique Montreal",
     about_reward_math : "2nd place in a math competition at College Bois-de-Boulogne (COMC)",
 
-    skill_title : "Skills",
+    skill_title : "Skill",
 
     experience_title : "Experience",
 
@@ -59,14 +59,15 @@ export const en_labels : Labels = {
 }
 
 export const fr_labels : Labels = {
-    title : "Développeur Full Stack, Machine Learning & Blockchain",
-    sub_title : "J'aime ce que je fais ainsi que les défis",
+    title : "Développeur Python, DevOps et Machine Learning",
+    sub_title : "Je n'abandonne jamais face à l'adversité",
 
     about_title : "À propos de moi",
-    about_desc : `Mon nom est Souleiman Ayoub. J'ai étudié à Polytechnique en génie logiciel. je me décris
+    about_desc : `J'ai étudié à Polytechnique en génie logiciel. je me décris
     comme étant une personne intègre, travailleuse et passionnée. Combinant mes deux
     grandes passions, les mathématiques et la programmation, j'ai relevé des défis
-    en développant des logiciels depuis maintenant 8 ans. Enfin, je pense qu'une bonne communication est un élément essentiel dans une bonne équipe.`,
+    en développant des logiciels depuis maintenant 8 ans. Enfin, je pense que c'est bien
+    la communication qui fait une bonne équipe.`,
     about_education_title : "Éducation",
     about_education_poly : "Polytechnique Montréal (2018 - 2021)",
     about_education_cegep : "Cégep Bois-de-Boulogne (2016 - 2018)",
@@ -103,10 +104,10 @@ export const fr_labels : Labels = {
     project_demo : "Démo",
     other_notebook_title : "Autres projets",
 
-    contact_title : "Me Contacter",
-    contact_intouch : "Contactez-moi",
+    contact_title : "Contacter",
+    contact_intouch : "Entrer en contact",
     contact_message : "N'hésitez pas à me contacter. Je suis toujours à la recherche de nouvelles opportunités.",
-    contact_hello : "Envoyer moi un message",
+    contact_hello : "Contactez moi",
 
     toolbar_resume : "CV"
 }
