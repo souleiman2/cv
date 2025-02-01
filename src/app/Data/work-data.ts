@@ -2,18 +2,48 @@ import { ITimelineItem } from "../Interfaces/experience";
 
 export const work_items_en: Array<ITimelineItem> = [
   {
+    year: "2024",
+    content: [
+      {
+        title: "Data Engineer",
+        subTitle: "Ask Locala",
+        elemList: [
+          "Designed, developed, and deployed Apache Airflow DAGs for streaming / CDC data pipelines, utilizing Databricks Unity Catalog for efficient table ingestion and processing",
+          "Proactively proposed and implemented improvements to the data architecture, enhancing scalability and efficiency of data workflows",
+          "Took ownership of end-to-end data product development, ensuring high-quality deliverables while utilizing Terraform for managing external locations"
+        ],
+        time: "September 2024 - Present",
+      },
+    ]
+  },
+  {
+    year: "2024",
+    content: [
+      {
+        title: "Data Engineer (Contract)",
+        subTitle: "Nasdaq - ExcelGens Inc.",
+        elemList: [
+          "Spearheaded ETL and CDC solution development, optimizing data workflows with technologies like Databricks on AWS",
+          "Refactored team code for production readiness, specializing in big data processing using Delta Lake and PostgreSQL",
+          "Collaborated cross-functionally to ensure efficient project delivery and adherence to industry standards"
+        ],
+        time: "January 2024 – September 2024",
+      },
+    ]
+  },
+  {
     year: "2022",
     content: [
       {
         title: "Data Engineer Consultant",
         subTitle: "Omnia, Deloitte",
-        sum: "So far, on my journey at Deloitte I’ve mainly been a part of 3 projects",
+        sum: "During my journey at Deloitte, I’ve mainly contributed to three projects",
         elemList: [
-          "Delivered successfully on the frontend, backend and DevOps (AWS) side of a webapp that showcases the datasets owned by a banking institution.",
-          "Team lead for the development of a platform that leverages blockchain technology to allow clients to profit from their underutilized datasets.",
-          "Successfully developed pipelines, logic apps and function apps on Azure Synapse that allowed a government entity to migrate and modernized their backend infrastructure."
+          "Developed successful logic apps, function apps and pipelines on Azure that allowed a government entity to migrate and modernize their infrastructure",
+          "Delivered successfully on the frontend, backend and devops side of a webapp that showcases the datasets owned by a banking institution",
+          "Led the development team for a platform that leverages blockchain technology to allow clients to profit from their underutilized datasets"
         ],
-        time: "January 2022 - Present",
+        time: "January 2022 - December 2023",
       },
     ]
   },
@@ -66,18 +96,48 @@ export const work_items_en: Array<ITimelineItem> = [
 
 export const work_items_fr: Array<ITimelineItem> = [
   {
+    year: "2024",
+    content: [
+      {
+        title: "Ingénieur Data",
+        subTitle: "Ask Locala",
+        elemList: [
+          "Conception, développement et déploiement de DAGs Apache Airflow pour des pipelines de données en streaming / CDC, en utilisant Databricks Unity Catalog pour l'ingestion et le traitement efficace des tables",
+          "Propositions et mise en œuvre proactives d'améliorations de l'architecture des données, augmentant la scalabilité et l'efficacité des workflows de données",
+          "Responsabilité du développement de produits data de bout en bout, en assurant des livrables de haute qualité tout en utilisant Terraform pour la gestion des emplacements externes"
+        ],
+        time: "Septembre 2024 - Présent",
+      }
+    ]
+  },
+  {
+    year: "2024",
+    content: [
+      {
+        title: "Ingénieur Data (Contrat)",
+        subTitle: "Nasdaq - ExcelGens Inc.",
+        elemList: [
+          "Pilotage du développement de solutions ETL et CDC, optimisant les workflows de données avec des technologies comme Databricks sur AWS",
+          "Refonte du code de l'équipe pour une mise en production, en se spécialisant dans le traitement de données massives avec Delta Lake et PostgreSQL",
+          "Collaboration interfonctionnelle pour assurer une livraison efficace des projets et le respect des normes de l'industrie"
+        ],
+        time: "Janvier 2024 – Septembre 2024",
+      }
+    ]
+  },
+  {
     year: "2022",
     content: [
       {
         title: "Consultant Ingénieur de données",
         subTitle: "Omnia, Deloitte",
-        sum: "Jusqu'à présent, au cours de mon parcours chez Deloitte, j'ai fait part de 3 projets",
+        sum: "Au cours de mon parcours chez Deloitte, j'ai principalement contribué à trois projets",
         elemList: [
-          "Livré avec succès sur le côté frontend, backend et devops (AWS) d'une application Web qui présente les ensembles de données appartenant à une institution bancaire",
-          "A dirigé l'équipe de développement d'une plate-forme qui exploite la technologie blockchain pour permettre aux clients de tirer profit de leurs ensembles de données sous-utilisés",
-          "Développé des logic app, des function app ainsi que des pipelines sur Azure Synapse qui ont permis à une entité gouvernementale de migrer et de moderniser son infrastructure backend"
+          "Développement réussi d'applications logiques, d'applications de fonction et de pipelines sur Azure, permettant à une entité gouvernementale de migrer et moderniser son infrastructure",
+          "Livraison réussie des parties frontend, backend et devops d'une application web présentant les jeux de données détenus par une institution bancaire",
+          "Direction de l'équipe de développement pour une plateforme exploitant la technologie blockchain afin de permettre aux clients de tirer profit de leurs jeux de données sous-utilisés"
         ],
-        time: "Janvier 2022 - Présent",
+        time: "Janvier 2022 - Décembre 2023",
       },
     ]
   },
